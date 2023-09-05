@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Data</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 style="margin-left: 600px; margin-top: 5px;">Employee Data</h1>
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search...">
+        <button id="search-button">Search</button>
+        <button id="reset-button">Reset</button>
+    </div>
+    <div class="pagination" id="pagination-container"></div>
+    <table id="employeeTable">
+        <thead>
+            <tr>
+                <th data-column="first_name">First Name</th>
+                <th data-column="last_name">Last Name</th>
+                <th data-column="department">Department</th>
+                <th data-column="job_title">Job Title</th>
+                <th data-column="salary">Salary</th>
+                <th data-column="email">Email</th>
+                <th data-column="phone_number">Phone Number</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+  
+</body>
+</html>
